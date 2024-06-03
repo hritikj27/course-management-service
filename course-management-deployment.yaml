@@ -15,7 +15,7 @@ spec:
       containers:
         - name: course-management
           # Replace with your Docker Hub username
-          image: chiranthany/course-management-service:latest
+          image: hritik/course-management-service:latest
           ports:
             - containerPort: 3002
           env:
